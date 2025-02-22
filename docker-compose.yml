@@ -68,4 +68,4 @@ services:
       - "8000:8000"
     volumes:
       - /path/to/models:/app/model
-    command: ["--model", "deepseek-ai/Janus-Pro-7B"]
+    command: ["--model", "microsoft/Phi-3.5-MoE-instruct"]
